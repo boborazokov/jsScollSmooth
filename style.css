@@ -3,8 +3,6 @@
 }
 body {
   height: 300vh;
-  display: flex;
-  justify-content: space-between;
 }
 .peush {
   position: fixed;
@@ -15,4 +13,18 @@ div {
   border: 1px solid black;
   width: 300px;
   height: 500px;
+}
+section {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

@@ -8,9 +8,23 @@
   </head>
   <body>
     <button class="peush" onclick="origin()">TOP</button>
-    <div></div>
-    <div></div>
-    <div></div>
+    <section>
+      <div ondragover="allowDrop(event)" ondrop="drop(event)">
+        <h2 id="draggable" draggable="true" ondragstart="drag(event)">wqe</h2>
+      </div>
+      <div ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+      <div ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+    </section>
+    <section>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+    </section>
     <script src="./script.js"></script>
   </body>
 </html>
